@@ -1,0 +1,38 @@
+
+{
+
+  "films": [
+    {
+      "title": "Star Wars",
+      "min": "img/starwars/couv.jpg",
+      "diffusion": "mercredi"
+
+    },
+    {
+      "title": "Avengers",
+      "min": "img/avengers/couv.jpg",
+      "diffusion": "jeudi"
+    },
+    {
+      "title": "Les Animaux Fantastiques",
+      "min": "img/animauxfantastiques/couv.jpg",
+      "diffusion": "mercredi"
+    },
+    {
+      "title": "Star Wars",
+      "min": "img/starwars/couv.jpg",
+      "diffusion": "jeudi"
+
+    },
+    {
+      "title": "Avengers",
+      "min": "img/avengers/couv.jpg",
+      "diffusion": "mercredi"
+    },
+    {
+      "title": "Les Animaux Fantastiques",
+      "min": "img/animauxfantastiques/couv.jpg",
+      "diffusion": "jeudi"
+    }
+  ]
+}
