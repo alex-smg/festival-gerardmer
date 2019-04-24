@@ -15,7 +15,7 @@
         <navbar></navbar>
         <ul id="container-films">
 
-            <li class="film-bloc" v-for="film in films" v-if="jour === film.diffusion">
+            <li class="film-bloc" v-for="film in films" v-if="jour === film.diffusion || jour === ''">
                 <img v-bind:src="film.min">
                 <h2>{{film.title}}</h2>
             </li>

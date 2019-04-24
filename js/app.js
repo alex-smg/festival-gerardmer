@@ -32,9 +32,14 @@ var app = new Vue({
 
           this.jour = e.target.innerHTML
           console.log(this.jour)
-          },
+          btn = document.getElementsByClassName('.filtre-btn')
+          if(this.jour ===  e.target.innerHTML ){
+              e.target.classList.add('red')
+          }else if(this.jour !== btn.innerHTML){
+              btn.classList.remove('red')
+          }
 
-
+          }
 
       },
     mounted(){
